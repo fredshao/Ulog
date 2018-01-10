@@ -17,3 +17,6 @@ Ulog.LogErrorFormat("{0} like {1}", "I", "Coffee");
 // 11:24:09 AM I like Coffee
 ```
 
+> 使用时请自行编译Dll或者直接使用ReleaseDll下面已经编译好的Dll,放到工程的Plugins目录下即可
+>
+> 不要直接使用源代码，否则双击日志打印时会跳到Ulog，而不是跳到调用Ulog的地方
